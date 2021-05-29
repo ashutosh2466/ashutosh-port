@@ -1,0 +1,19 @@
+.App .sidebar {
+  width: 16%;
+  height: 100vh;
+  background-color: #250625;
+}
+
+* {
+  padding: 0%;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  color: #a4acc4;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: .3rem;
+}
+/*# sourceMappingURL=App.css.map */

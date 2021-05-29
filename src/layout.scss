@@ -1,0 +1,112 @@
+.App{
+        .sidebar{
+        padding: 0%;
+        margin: 0%;
+        width: 16%;
+        height: 120vh;
+        background-color: #110f29;
+        position: fixed;
+        z-index: 11;
+        border-right: 1px solid #171a29;
+        transition: all .3s ease-in-out;
+        transform-origin: left;
+        @media screen and (max-width:1000px) {
+                transition: all .3s ease-in-out;
+                transform: translateX(-100%);
+                width: 20%;  
+                
+        } 
+        @media screen and (max-width:414px){
+        width: 70%; 
+        }
+        }
+        .nav-toggle{
+                @media screen and (max-width:1000px) {
+                        position: fixed;
+                        transition: all .3s ease-in-out;
+                        transform: translateX(0);
+                        width: 30%;  
+                        
+                }
+
+
+        }
+
+        .main-content{
+                width: 86%;
+                margin-left: 16%;
+                background-color: #080514;
+                min-height: 100vh;
+                display: grid;
+                position: relative;
+                background-image: linear-gradient(rgba(17, 23, 102, 0.993),rgba(60, 20, 124, 0.8)),url(../src/img/ic.jpg);
+                @media screen and (max-width:414px){
+        
+                        margin-left: 4rem;
+                        width: 100%;
+                        overflow: hidden;
+                    }
+                
+               
+               
+                .content
+                {
+                        margin: 5rem 15rem;
+                        
+                        @media screen and (max-width:414px){
+                                margin-left: 5rem;  
+                        }
+
+                       
+                        @media screen and (max-width:1000px) {
+                                margin-right: 4rem;
+                                p{
+                                    font-size: 1.5rem;    
+                                }
+                                
+                        }
+
+
+                }
+                @media screen and (max-width:1000px) {
+                        margin-left: 0;
+                        width: 100%;
+                        
+                }
+        }
+}
+.nav-btn{
+        position: fixed;
+        z-index: 10;
+        right: 10%;
+        top: 10%;
+       
+        width: 4rem;
+        height: 4rem;
+        display: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        .line-1, .line-2,.line-3{
+                height: .4rem;
+                width: 100%;
+                background-color: rgb(12, 84, 240);
+                pointer-events: none;
+                display: none;
+                border-radius: 20px;
+
+                &:not(:last-child){
+                        margin-bottom: .5rem;
+                }
+        }
+        @media  screen and (max-width:1000px){
+                display: block;
+                .line-1, .line-2,.line-3{
+                        display: block;
+                }
+                
+        }
+
+
+}

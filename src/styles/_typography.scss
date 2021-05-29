@@ -1,0 +1,45 @@
+.HomePage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+}
+.he-text{
+    color: white;
+    text-align: center;
+    font-size: 3.2rem;
+
+    span{
+        color:rgb(12, 84, 240);
+
+    }
+}
+.h-sub-text{
+    text-align: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    .icon-hold{
+        margin-right: 1rem;
+       
+        .icon{
+            font-size: 3rem;
+            color: rgb(233, 236, 243);
+            
+            
+        }
+        .gh:hover{
+            color: rgba(223, 245, 181, 0.829);
+        }
+        .fa:hover{
+            color: rgb(7, 154, 252);
+        }
+        .li:hover{
+            color: rgb(10, 37, 241);
+        }
+    }
+}
