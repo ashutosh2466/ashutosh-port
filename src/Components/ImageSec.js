@@ -25,7 +25,7 @@ I have keen interest in Web Development.
                  <p>
                      💎I love working on Mission-driven Projects with teams and people who love challenge.
                  </p>
-                 <a href="https://drive.google.com/drive/my-drive?lfhs=2" >
+                 <a href="" >
                  <button className="btn">
                      Download CV
                  </button>
